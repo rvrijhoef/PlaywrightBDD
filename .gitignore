@@ -1,0 +1,21 @@
+#IDE
+.DS_Store
+.vscode
+.idea
+
+# npm
+node_modules
+npm-debug.log
+
+# env
+.env
+
+# tests
+test-results
+playwright-report
+cucumber-report
+**/.features-gen/**/*.spec.js
+
+# logs
+build-archive.log
+/log
