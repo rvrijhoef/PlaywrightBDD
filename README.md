@@ -4,14 +4,16 @@ Example project that uses [playwright-bdd](https://github.com/vitalets/playwrigh
 
 ## Installation steps
 
-1. Clone it to your local machine
+1. Open Visual studio code
+   
+2. Clone the repo to your local machine in Visual Studio Code or use GIT bash
 
    ```
    git clone https://github.com/rvrijhoef/PlaywrightBDD.git
    ```
-2. Open the folder in Visual studio code
-
-3. Install the extensions in Visual studio code
+2. Open the project folder `playwrightBDD` in Visual studio code 
+   
+4. Install the extensions in Visual studio code
 
    > Cucumber
    
@@ -19,26 +21,25 @@ Example project that uses [playwright-bdd](https://github.com/vitalets/playwrigh
    
    > Playwright Trace Viewer for VSCode
 
-3. Open a terminal in the root project folder
-   ```
-   Menu > Terminal > New Terminal
-   Open Terminal tab at the bottomn
-   ```
+3. Open a terminal in Visual Studio Code on the root project folder
+   - Go to Menu > Terminal > New Terminal
+   - Open the `Terminal` tab at the bottom of Visual Studio Code
 
-5. Install dependencies
+5. Install dependencies by running
 
    ```
    npm install
    ```
 
-6. Install browsers
+6. Install browsers by running
 
    ```
    npx playwright install
    ```
 
-7. Run tests to check
+7. Run tests to check that everthing is fine
 
    ```
    npm run test
    ```
+8. Ready to go!
